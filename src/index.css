@@ -1,0 +1,82 @@
+*{
+
+margin-top: 0;
+}
+
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.nonselected {
+  color: #7AA7FF;
+  text-decoration: none;
+}
+
+.selected {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.Navbar {
+  background-color: #0070FF;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+}
+
+.numbers {
+  display: flex;
+  position: relative;
+  gap: 30px;
+
+}
+.enunciate{
+  background-color: #C1E6EC;
+  border-color: #CBE9EF;
+  font-weight: 300;
+  padding: 18px;
+  height: 23px;
+  border: none;
+  border-radius: 5px;
+}
+.btn{
+  background-color:#0070FF ;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  width: 70px;
+  height: 40px;
+  
+}
+.Title{
+  margin-top: 10px;
+}
+
+
+.output2{
+  padding: 10px;
+  position: relative;
+  gap: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+#operators{
+  width: 40px;
+  height: 40px;
+}
