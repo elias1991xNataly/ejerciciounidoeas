@@ -1,17 +1,23 @@
 import { useState } from "react";
+import React from "react";
 
-const ComponentC = (props) => {
-	const [count, setCount] = useState(0);
-	const CompA=document.getElementById("valueOfComponentA");
+const ComponentC = ({ initial, setCount }) => {
+
+
+	const Addition = () => {
+		setCount(prev => prev + 1)
+
+	}
+
 
 	return (
 		<div className="output" id="compC">
 			<div>
 				<p>ComponentC</p>
-				<p>{console.log(CompA)}</p>
-				<p>x={count}</p>
-				<button onClick={() => setCount((count) => count + 1)}>x++</button>
-							</div>
+
+				<p>x={initial}</p>
+				<button onClick={(Addition) }>x++</button>
+			</div>
 		</div>
 	)
 
