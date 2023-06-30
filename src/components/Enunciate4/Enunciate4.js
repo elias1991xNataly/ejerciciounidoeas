@@ -1,8 +1,11 @@
-const Enunciate4=()=>{
+const Enunciate4 = () => {
 
-	return(
+	return (
 		<div>
+			<p className="enunciate">
+				When the user type some information in the input, it should change the list of prime numbers.
 
+			</p>
 		</div>
 	)
 }

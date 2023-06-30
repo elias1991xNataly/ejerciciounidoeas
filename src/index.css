@@ -1,12 +1,13 @@
-*{
+* {
 
-margin-top: 0;
+  margin-top: 0;
 }
 
 
-html{
+html {
   display: flex;
   justify-content: center;
+
 }
 
 .nonselected {
@@ -45,7 +46,8 @@ html{
   gap: 30px;
 
 }
-.enunciate{
+
+.enunciate {
   background-color: #C1E6EC;
   border-color: #CBE9EF;
   font-weight: 300;
@@ -54,21 +56,23 @@ html{
   border: none;
   border-radius: 5px;
 }
-.btn{
-  background-color:#0070FF ;
+
+.btn {
+  background-color: #0070FF;
   color: #FFFFFF;
   border: none;
   border-radius: 3px;
   width: 70px;
   height: 40px;
-  
+
 }
-.Title{
+
+.Title {
   margin-top: 10px;
 }
 
 
-.output2{
+.output2 {
   padding: 10px;
   position: relative;
   gap: 20px;
@@ -76,7 +80,24 @@ html{
   align-items: baseline;
 }
 
-#operators{
+#operators {
   width: 40px;
   height: 40px;
+
+}
+
+#compA {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+#compB {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+#compC {
+  border: 2px solid black;
+  padding: 5px;
+  margin:12px;
 }

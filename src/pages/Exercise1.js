@@ -1,11 +1,9 @@
-import { useState } from "react";
 import Title1 from "../components/Title1";
 import Enunciate1 from "../components/Enunciate1";
-
+import Exerc1 from "../components/Exerc1/Exerc1";
 
 
 const Exercise1 = () => {
-    const [count, setCount] = useState(0);
     // const {path}=props;
     // console.log(path);
     return (
@@ -14,8 +12,7 @@ const Exercise1 = () => {
 
                 <Title1 />
                 <Enunciate1 />
-
-                <button className="btn" id="btn1" onClick={() => setCount((count) => count + 1)}>{count} likes</button>
+                <Exerc1 />
             </div>
         </div>
 

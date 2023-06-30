@@ -1,24 +1,18 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './ComponentB.scss';
+import { useState } from "react";
+import ComponentC from "../ComponentC/ComponentC";
 
-const ComponentB = props => (
-	<div>This is a component called ComponentB.</div>
-);
 
-// todo: Unless you need to use lifecycle methods or local state,
-// write your component in functional form as above and delete
-// this section. 
-// class ComponentB extends React.Component {
-//   render() {
-//     return <div>This is a component called ComponentB.</div>;
-//   }
-// }
+const ComponentB = (props) => {
+	const {valueX}=props
+	const [count, setCount] = useState(0);
+	return (
 
-const ComponentBPropTypes = {
-	// always use prop types!
-};
+		<div className="output" id="compB">
+                    <p>ComponentB</p>
+                    <p>x={valueX}</p>
+					<ComponentC count={count}/>
+		</div>
+	)
 
-ComponentB.propTypes = ComponentBPropTypes;
-
+}
 export default ComponentB;
